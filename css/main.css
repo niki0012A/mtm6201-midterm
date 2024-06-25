@@ -1,0 +1,51 @@
+/* for MOBILE first */
+h1{
+    font-size: 2.027rem;  /* (32.44px) */
+}
+h2{
+    font-size: 1.802rem;  /* (28.83px) */
+}
+h3{
+    font-size: 1.424rem;  /* (22.78px) */
+}
+p{
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* This is for TABLETS*/
+@media screen and (min-width: 768px) {
+    h1{
+        font-size: 2.986rem;  /* (47.78px) */
+    }
+    h2{
+        font-size: 2.488rem;  /* (39.81px) */
+    }
+    h3{
+        font-size: 1.728rem;  /* (27.65px) */
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+
+
+/* This is for DESKTOPS*/
+@media screen and (min-width: 1100px) {
+    h1{
+        font-size: 3.815rem;  /* (61.04px) */
+    }
+    h2{
+        font-size: 3.052rem;  /* (48.83px) */
+    }
+    h3{
+        font-size: 1.953rem;  /* (31.25px) */
+    }
+    p{
+        font-size: 1rem;
+    }
+}
