@@ -164,17 +164,18 @@ header li{
 
 .new_way_text{
     margin: 70px 0 30px 0;
-    max-width: 60%;
+    max-width: 70%;
 }
-.new_way_text h4{
+.h4{
     margin-bottom: 15px;
     color: #d69e3d;
     text-transform: uppercase;
     font-weight: 600;
 }
-.new_way_text h2{
+.h2{
     font-weight: 700;
     color: #272727;
+    text-transform: uppercase;
 }
 .grid_five-photo{
     display: grid;
@@ -205,6 +206,35 @@ header li{
     grid-column: 2 / 3;
     grid-row: 4 / 5;
 }
+/* START OF WHY VISIT US PART */
+.visit_text{
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+.trade, .goods, .love{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+}
+.trade h2, .goods h2, .love h2{
+    margin-bottom: 15px;
+}
+.trade p, .goods p, .love p{
+    max-width: 90%;
+}
+.svg{
+    width: 30%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
 
 
 
