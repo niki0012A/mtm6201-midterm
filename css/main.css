@@ -387,6 +387,35 @@ header li{
         max-width: 35%;;
         padding: 20px;
     }
+    /* START OF MENU AND LOCATIONS PART */
+    .our_menu_background{
+        background-image: url(../images/coffee-shop.jpeg);
+        height: auto;
+        background-size: cover;
+        background-position: 40% 0;
+        position: relative;
+    }
+    .menu_locations_content{
+        display: flex;
+        flex-direction: row;
+        background-color: #0000008a;
+        align-items: center;
+    }
+    .our_menu, .locations{
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .our_menu h2, .locations h2{
+        color: #f3f0e9;
+    }
+    .our_menu button, .locations button{
+        margin: 60px 0 20px 0;
+    }
 }
 
 
