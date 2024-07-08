@@ -165,10 +165,11 @@ header li{
 .button_transparent{               /* TEMPLATE FOR BUTTON WITH TRANSPARENT BACKGROUND */
     text-transform: uppercase;
     color: #f3f0e9;
-    font-weight: 800;
-    border: 5px solid #f3f0e9;
+    background-color: #00000000;
+    font-weight: 700;
+    border: 2px solid #f3f0e9;
     font-size: 16px;
-    padding: 12px 25px
+    padding: 10px 25px
 }
 
 /* START OF EXPERIENCE A NEW WAY TO TASTE COFFEE PART */
@@ -242,7 +243,36 @@ header li{
     max-width: 40%;
     padding: 20px;
 }
-
+/* START OF MENU AND LOCATIONS PART */
+.our_menu_background{
+    background-image: url(../images/coffee-shop.jpeg);
+    height: auto;
+    background-size: cover;
+    background-position: 40% 0;
+    position: relative;
+}
+.menu_locations_content{
+    display: flex;
+    flex-direction: column;
+    background-color: #0000008a;
+    align-items: center;
+    padding: 40px;
+}
+.our_menu, .locations{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+.our_menu h2, .locations h2{
+    color: #f3f0e9;
+}
+.our_menu button, .locations button{
+    margin: 40px 0 0 0;
+}
 
 
 
