@@ -10,32 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">  <!-- This is BOTH FONTS-->
 </head>
 <body>
-
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 <header>
     <!-- START OF HEADER AND NAVIGATION -->
     <div class="wrapper">
         <div class="container">
             <div class="navigation">
                 <h1><img src="images/my-coffee-shop-logo.svg" alt="My Coffee House logo, two coffee beans"></h1>
-                <nav>
+                <nav aria-label="Main Navigation">
                     <ul>
-                        <li>About Us</li>
-                        <li>Menu</li>
-                        <li>Locations</li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#locations">Locations</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </div>
 </header>
-<main>
+<main id="main-content">
     <!-- START OF EXPERIENCE COFFEE LIKE NEVER BEFORE PART -->
     <div class="experience">
             <div class="container">
                 <div class="exp_content">
                     <h1>Experience coffee like never before</h1>
                     <p>We craft more than beverages; we curate memories, one flavorful moment at a time. Embrace the aroma and let every visit be a chapter in your coffee story.</p>
-                    <button class="button_black-on-white">Explore our menu</button>
+                    <button class="button_black-on-white" aria-label="Explore our menu">Explore our menu</button>
                 </div>
             </div>
         </div>
@@ -81,15 +81,15 @@
      <!-- START OF MENU AND LOCATIONS PART -->
     <div class="our_menu_background">
         <div class="menu_locations_content">
-            <div class="our_menu">
+            <div class="our_menu" id="menu">
                 <h4 class="h4">our menu</h4>
                 <h2 class="h2">explore what we have to offer you</h2>
-                <button class="button_black-on-white">explore our menu</button>
+                <button class="button_black-on-white" aria-label="Explore our menu">explore our menu</button>
             </div>
             <div class="locations">
                 <h4 class="h4">locations</h4>
                 <h2 class="h2">find your nearest coffee shop</h2>
-                <button class="button_transparent">view locations</button>
+                <button class="button_transparent" aria-label="View locations">view locations</button>
             </div>
         </div>
     </div>
@@ -98,12 +98,12 @@
         <div class="read_story_all">
             <img src="images/about-us.jpeg" alt="a young guy making coffe, other guy on a background look at this">
             <div class="read_story">
-                <h4 class="h4">about us</h4>
+                <h4 class="h4" id="about">about us</h4>
                 <h2 class="h2">read our story</h2>
                 <p>In the heart of our community, My Coffee House emerged as a humble local coffee shop that sought to redefine the coffee experience. Founded with a passion for quality brews and a commitment to fostering genuine connections, we embarked on this journey with a vision to create a warm and inviting space for coffee enthusiasts and casual patrons alike.</p>
                 <p>My Coffee House quickly became a cherished gathering spot, where the rich aroma of freshly ground coffee beans mingled with the laughter of friends and the tapping of keyboards from those seeking a cozy workspace.
                 </p>
-                <button class="button_white-on-black">learn more</button>
+                <button class="button_white-on-black" aria-label="Learn more about us">learn more</button>
             </div>
         </div>
     </div>
