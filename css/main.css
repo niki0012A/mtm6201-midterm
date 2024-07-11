@@ -47,13 +47,17 @@ table {
 
 
 
-.skip-link{
+.skip-link {
     position: absolute;
-    top: -5rem;
-    background-color: #000000;
+    left: -9999px;
 }
-.skip-link :focus{
-    top: 0;
+
+.skip-link:focus {
+    left: auto;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    clip: auto;
 }
 
 
