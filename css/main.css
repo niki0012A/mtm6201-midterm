@@ -171,6 +171,15 @@ header li{
     font-size: 16px;
     padding: 10px 25px
 }
+.button_white-on-black{               /* TEMPLATE FOR BUTTON WITH BLACK BACKGROUND */
+    background-color: #000000;
+    color: #f3f0e9;;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 0;
+    font-size: 16px;
+    padding: 12px 25px
+}
 
 /* START OF EXPERIENCE A NEW WAY TO TASTE COFFEE PART */
 
@@ -273,6 +282,24 @@ header li{
 .our_menu button, .locations button{
     margin: 40px 0 0 0;
 }
+/* START OF READ OUR STORY PART */
+.read_story_all img{
+    width: 100%;
+    margin-top: 100px;
+}
+.read_story{
+    margin-top: 15px;
+}
+.read_story p{
+    margin-top: 10px;
+}
+.read_story button{
+    margin-top: 10px;
+}
+
+
+
+
 
 
 
