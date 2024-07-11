@@ -283,6 +283,9 @@ header li{
     margin: 40px 0 0 0;
 }
 /* START OF READ OUR STORY PART */
+.read_story_all{
+    margin-bottom: 80px;
+}
 .read_story_all img{
     width: 100%;
     margin-top: 100px;
@@ -443,6 +446,26 @@ header li{
     .our_menu button, .locations button{
         margin: 60px 0 20px 0;
     }
+    /* START OF READ OUR STORY PART */
+    .read_story_all{
+        display: flex;
+        margin-top: 100px;
+        gap: 20px;
+        align-items: center;
+    }
+    .read_story_all img{
+        width: 50%;
+        margin-top: 0;
+    }
+    .read_story{
+        margin-top: 15px;
+    }
+    .read_story p{
+        margin-top: 10px;
+    }
+    .read_story button{
+        margin-top: 30px;
+    }
 }
 
 
@@ -601,6 +624,26 @@ header li{
     }
     .our_menu button, .locations button{
         margin: 60px 0 20px 0;
+    }
+    /* START OF READ OUR STORY PART */
+    .read_story_all{
+        display: flex;
+        margin-top: 100px;
+        gap: 20px;
+        align-items: center;
+    }
+    .read_story_all img{
+        width: 50%;
+        margin-top: 0;
+    }
+    .read_story{
+        margin-top: 15px;
+    }
+    .read_story p{
+        margin-top: 10px;
+    }
+    .read_story button{
+        margin-top: 30px;
     }
     
     
