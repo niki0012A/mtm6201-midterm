@@ -406,6 +406,19 @@ header li{
     padding: 10px;
     line-height: 20px;
 }
+/* STARTS OF FOOTER */
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+hr{
+    padding: 0;
+    margin: 0 0 15px 0;
+    border: 1px rgba(128, 128, 128, 0.408) solid;
+}
 
 
 
