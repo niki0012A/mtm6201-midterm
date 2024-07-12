@@ -46,7 +46,10 @@ table {
 /* END OF RESET*/
 
 
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .skip-link {
     position: absolute;
     left: -9999px;
