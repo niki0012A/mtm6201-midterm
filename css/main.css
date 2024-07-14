@@ -213,7 +213,8 @@ header li{
 }
 .button_white-on-black:hover{
     background-color: #d69e3d;
-    color: black
+    color: black;
+    border: 0;
 }
 
 /* START OF EXPERIENCE A NEW WAY TO TASTE COFFEE PART */
